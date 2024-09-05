@@ -99,3 +99,16 @@ a {
 .launch-button:active .launch-label {
   color: #fff;
 }
+
+.meetings-label {
+  text-transform: uppercase;
+  margin: 12px auto;
+}
+
+#meetings-landing {
+  margin: 3.5px;
+  width: 287px;
+  height: 341px;
+  border: solid 1.5px #ff4f58;
+  overflow-y: scroll;
+}
