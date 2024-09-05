@@ -80,3 +80,22 @@ a {
   height: 67px;
   width: 67px;
 }
+
+.label {
+  text-align: center;
+  color: #ff4f58;
+  text-decoration: underline;
+}
+
+.launch-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.launch-label:active,
+.launch-button:active .launch-label {
+  color: #fff;
+}
