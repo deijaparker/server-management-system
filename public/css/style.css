@@ -237,3 +237,23 @@ tbody {
   padding: 5px;
   background-color: #ff4f58;
 }
+
+#meetings-cancel {
+  width: 106px;
+  height: 26px;
+  margin: 10px;
+  background-color: #ff4f58;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#meetings-cancel:hover {
+  border: solid 1.5px #fff;
+}
+
+#meetings-cancel:active {
+  text-decoration: underline;
+}
