@@ -13,3 +13,33 @@ a {
 .button {
   cursor: pointer;
 }
+
+#content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  margin-top: 23px;
+}
+
+#logo-img {
+  height: 100%;
+}
+
+#title {
+  font-family: "Russo One", sans-serif;
+  font-size: 25.2px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 27px;
+  margin-bottom: 34px;
+}
